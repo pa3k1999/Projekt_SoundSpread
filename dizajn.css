@@ -1,0 +1,462 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(226, 226, 226);
+}
+header {
+    top: 0;
+    position:fixed;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    overflow: hidden;
+    background-color: #3d3d3d;
+    padding: 0px;
+    box-shadow: 0px 0px 5px rgb(110, 110, 110);
+    z-index: 10;
+}
+header a{
+    float: left;
+    color: rgb(218, 218, 218);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+header a.logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+nav{
+    float: right;
+}
+nav a:hover{
+    background-color: #313131;
+    color: rgb(255, 255, 255);
+}
+.glavno{
+    margin-top: 50px;
+}
+
+
+.blok{
+    margin: 15px auto;
+    width: 950px;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+.naslov{
+    margin-left: 25px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+img.slGlazbe{
+    width: 70px; 
+    height: 70px;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+.naziv, .playerNaziv{
+    margin: 0;
+}
+table.lista{
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 900px;
+}
+.lista tr.listaR{
+    height: 70px;
+    border-bottom: 2px solid rgb(46, 46, 46);
+}
+.lista tr.listaR:hover{
+    background: linear-gradient(90deg, rgb(201, 201, 201) 0%, rgb(255, 255, 255) 100%);
+}
+.lista .autor ,.playerAutor{
+    margin: 0px;
+    color: rgb(121, 121, 121);
+    cursor: pointer;
+}
+.lista .slika{
+    background-color: black;
+    width: 70px;
+    text-align: center;
+}
+.lista .vrijeme{
+    width: 60px;
+    vertical-align: bottom; 
+    text-align:right
+}
+.lista .vrijeme h4{
+    margin: 0;
+}
+.lista .opis{
+    margin-top: 4px;
+    margin-left: 8px;
+}
+.lista .plus{
+    margin-top: 3px;
+    padding: 0 8px;
+    height: 17px;
+    width: 17px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+img.slProfil{
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+table.profil{
+    margin: 0 auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 900px;
+}
+td.profLeft{
+    width: 110px;
+    border-right: 3px solid rgb(209, 209, 209);
+
+}
+td.profRight{
+    vertical-align: top;
+}
+div.user h3{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+p.ime{
+    margin-top: 0;
+    font-size: 12px;
+    color:  rgb(116, 116, 116);
+}
+p.bio{
+    font-size: 14px;
+    color:  rgb(121, 121, 121);
+}
+.glazbaBtn, .listaBtn{
+    background-color: rgb(204, 204, 204);
+    padding: 10px 7px;
+    margin: 4px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+}
+.glazbaBtn:hover, .listaBtn:hover{
+    opacity: 1;
+}
+.btns{
+    width: 150px;
+}
+
+
+.signup div.forma, .login div.forma, .upload div.forma{
+    margin-left: 0;
+    width: fit-content;
+}
+.signup div.submit, .login div.submit, .upload div.submit{
+    margin: auto;
+    width: fit-content;
+}
+.signup, .login, .upload{
+    width: fit-content;
+    margin: auto; 
+    margin-top: 20px;  
+}
+label{
+    display: inline-block;
+    width: 110px;
+    text-align: left;
+}
+input, textarea{
+    padding: 6px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(165, 165, 165);
+    border-radius: 4px;
+}
+
+
+.blokPlayer{
+    margin: 0 auto;
+    width: 950px;
+    margin-top: 15px;
+    padding: 0;
+    background-color: white;
+}
+.blokPlayer table,.blokPlayer tr, .blokPlayer td{
+    margin: 0;
+    padding: 0;
+}
+.blokPlayer table{
+    border-collapse: collapse;
+}
+.playerSlika{
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+.playerDesno{
+    width: 800px;
+    vertical-align: bottom;
+}
+.playerLijevo{
+    background-color: rgb(0, 0, 0);
+    height: 150px;
+    width: 150px;
+    text-align: center; 
+}
+.playerNaslov{
+    width: 640px;
+    margin: auto;  
+    text-align: center; 
+    margin-bottom: 20px;
+    display:inline-block
+}
+.playerUpper{
+    width: fit-content;
+    margin: auto;
+}
+.prews, .next{
+    height: 50px;
+    cursor: pointer;
+}
+audio{
+    width: 780px;
+}
+.player{
+    width: fit-content;
+    margin: auto;
+}
+.playing{
+    background: linear-gradient(90deg, rgb(182, 194, 201) 0%, rgb(255, 255, 255) 100%); 
+}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 4; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, 0.24); 
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 400px;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+} 
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+table.popisListatbody{
+    display:block;
+    overflow: auto;
+     height: 400px;
+}
+img.slListe{
+    width: 50px; 
+    height: 50px;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+table.popisLista{
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 400px;
+}
+.popisLista tr{
+    height: 50px;
+    border-bottom: 2px solid rgb(46, 46, 46);
+}
+.popisLista tr:hover{
+    background: linear-gradient(90deg, rgb(201, 201, 201) 0%, rgb(255, 255, 255) 100%);
+}
+.popisLista .Lslika{
+    width: 50px;
+    text-align: center;
+}
+.popisLista h4{
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+}
+.tableScrollListe{
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+
+.prikazLista{
+    margin: 0 auto;
+    margin-top: 15px;
+    border-collapse: separate;
+    width: 900px;
+    border-spacing: 0 15px;
+}
+.prikazListaR{
+    text-align: center;
+}
+.prikazListaS{
+    height: 140px;
+    width: 100px;
+    border-left: 1px solid rgb(46, 46, 46);
+    border-right: 1px solid rgb(46, 46, 46);
+}
+.prikazListaS:hover{
+    background: linear-gradient(0deg, rgb(182, 194, 201) 0%, rgb(255, 255, 255) 100%);
+}
+.prikazListaSlika img.slListe{
+    width: 100px; 
+    height: 100px; 
+    border-radius: 20%;
+    object-fit: cover;
+}
+.prikazListaNaziv p{
+    margin: auto;
+    font-weight: bold;
+    padding: 0;
+    width: 100px;
+    height: 38px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.prikazListaNaziv{
+    margin: auto;
+    width: 100px;
+}
+.prikazListaSlika{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.prikazListaR td:first-child{
+    border-left: 0;
+}
+.prikazListaR td:last-child {
+    border-right: 0;
+}
+
+
+.smece, .edit, .minus{
+    height: 25px;
+    width: 25px;
+    vertical-align: bottom;
+    margin: auto;
+    padding: 7px;
+    cursor: pointer;
+}
+.smece:hover, .minus:hover{
+    border-radius: 20%;
+    background-color: rgba(255, 0, 0, 0.353);
+}
+.edit:hover{
+    border-radius: 20%;
+    background-color: rgba(99, 222, 241, 0.333);
+}
+.ikone{
+    width: 85px;
+}
+
+
+button {
+    background-color: rgb(204, 204, 204);
+    padding: 10px 7px;
+    margin: 4px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+} 
+button:hover {
+    opacity:1;
+} 
+.obrisi {
+    background-color: #f44336;
+}
+.prikazListaSlika div{
+    float: left;
+    position: relative;
+    z-index: 3;
+    left: 0px;
+    top: 0px;
+    margin-bottom: -110px;
+    border-radius: 20%;
+    height: 100px;
+    width: 100px;
+}
+ .editLista{  
+     background-color: rgba(255, 255, 255, 0.425);
+     border-top-left-radius: 20%;
+     border-bottom-right-radius: 20px;
+     padding: 5px;
+     margin-top: 60px;
+     margin-left: 60px;
+     height: 30px;
+     width: 30px;
+ }
+
+
+ .blokUrediListu{
+    margin: 15px auto;
+    width: 950px;
+    padding: 0;
+    background-color: white;
+ }
+ .urediListu{
+    margin: 0;
+    padding: 0;
+    width: 950px;
+ }
+ .urediListu .ljevo{
+    border-right: 3px solid rgb(209, 209, 209);
+    width: 150px;
+}
+.urediListu .desno{
+    width: 50px;
+    vertical-align: top;
+    text-align: end;
+}
+.urediListu .ljevo .imgUrediL{
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+.urediListu .ljevo h3{
+    text-align: center;
+    margin: auto;
+    padding: 5px 0;
+    width: 150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
